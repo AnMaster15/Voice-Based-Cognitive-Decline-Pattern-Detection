@@ -1,0 +1,306 @@
+
+    <html>
+    <head>
+        <title>MemoTag Speech Intelligence Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; }
+            h1 { color: #333; }
+            h2 { color: #555; }
+            table { border-collapse: collapse; width: 80%; margin: 20px 0; }
+            th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+        </style>
+    </head>
+    <body>
+        <h1>MemoTag Speech Intelligence Report</h1>
+        <h2>Overview</h2>
+        <p>Processed 5 samples. The analysis used PCA for dimensionality reduction, K-Means for clustering, and Isolation Forest for anomaly detection. These methods emphasize interpretability and help flag samples that deviate in pause rate, vocabulary diversity, and other speech markers.</p>
+        
+        <h2>Top Important Features</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Importance Score</th>
+            </tr>
+            
+            <tr>
+                <td>mfcc_6_mean</td>
+                <td>0.3372</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_9_mean</td>
+                <td>0.3307</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_13_std</td>
+                <td>0.3299</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_10_std</td>
+                <td>0.3249</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_3_mean</td>
+                <td>0.323</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_10_mean</td>
+                <td>0.3221</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_3_std</td>
+                <td>0.3049</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_12_std</td>
+                <td>0.3042</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_11_std</td>
+                <td>0.3016</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_13_mean</td>
+                <td>0.2947</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_5_mean</td>
+                <td>0.2862</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_12_mean</td>
+                <td>0.2718</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_5_std</td>
+                <td>0.2666</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_9_std</td>
+                <td>0.2558</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_1_std</td>
+                <td>0.2491</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_8_mean</td>
+                <td>0.2449</td>
+            </tr>
+            
+            <tr>
+                <td>spectral_centroid</td>
+                <td>0.2445</td>
+            </tr>
+            
+            <tr>
+                <td>spectral_rolloff</td>
+                <td>0.2441</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_4_mean</td>
+                <td>0.2315</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_2_mean</td>
+                <td>0.2314</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_4_std</td>
+                <td>0.2056</td>
+            </tr>
+            
+            <tr>
+                <td>pitch_mean</td>
+                <td>0.1838</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_7_mean</td>
+                <td>0.1758</td>
+            </tr>
+            
+            <tr>
+                <td>duration</td>
+                <td>0.1713</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_2_std</td>
+                <td>0.1675</td>
+            </tr>
+            
+            <tr>
+                <td>pause_count</td>
+                <td>0.1512</td>
+            </tr>
+            
+            <tr>
+                <td>pause_rate</td>
+                <td>0.1512</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_1_mean</td>
+                <td>0.1342</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_7_std</td>
+                <td>0.1314</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_6_std</td>
+                <td>0.1276</td>
+            </tr>
+            
+            <tr>
+                <td>jitter</td>
+                <td>0.1206</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_8_std</td>
+                <td>0.12</td>
+            </tr>
+            
+            <tr>
+                <td>avg_words_per_sentence</td>
+                <td>0.1185</td>
+            </tr>
+            
+            <tr>
+                <td>word_count</td>
+                <td>0.1185</td>
+            </tr>
+            
+            <tr>
+                <td>speech_rate_acoustic</td>
+                <td>0.0995</td>
+            </tr>
+            
+            <tr>
+                <td>pause_duration</td>
+                <td>0.0907</td>
+            </tr>
+            
+            <tr>
+                <td>mfcc_11_mean</td>
+                <td>0.0814</td>
+            </tr>
+            
+            <tr>
+                <td>content_word_ratio</td>
+                <td>0.0669</td>
+            </tr>
+            
+            <tr>
+                <td>pitch_std</td>
+                <td>0.0357</td>
+            </tr>
+            
+            <tr>
+                <td>wpm</td>
+                <td>0.0348</td>
+            </tr>
+            
+            <tr>
+                <td>filler_word_ratio</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>hesitation_markers</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>hesitation_rate</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>incomplete_sentence_rate</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>naming_task_missing</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>pauses_per_sentence</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>proper_noun_ratio</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>sentence_completion_missing</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>sentence_count</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>type_token_ratio</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>unique_content_ratio</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>unique_word_ratio</td>
+                <td>0.0</td>
+            </tr>
+            
+            <tr>
+                <td>word_substitution_rate</td>
+                <td>0.0</td>
+            </tr>
+            
+        </table>
+        
+        <h2>Cluster Analysis</h2>
+        <p>The clusters indicate grouping based on similar speech patterns. For example, one cluster may present higher pause rates and lower vocabulary diversity, suggesting an elevated risk of cognitive decline.</p>
+        
+        <h2>Next Steps</h2>
+        <ul>
+            <li>Integrate forced alignment tools for precise pause per sentence metrics.</li>
+            <li>Refine word substitution detection using advanced language models.</li>
+            <li>Add task-specific assessments for naming and sentence completion.</li>
+            <li>Leverage anomaly scores from the ML model for API risk estimation.</li>
+            <li>Validate and calibrate the system with clinical data.</li>
+        </ul>
+    </body>
+    </html>
+    
